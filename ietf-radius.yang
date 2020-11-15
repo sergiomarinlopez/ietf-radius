@@ -1,6 +1,5 @@
 module ietf-radius {
-  //namespace "urn:ietf:params:xml:ns:yang:ietf-radius";
-      namespace "http://example.net/ietf-radius";
+  namespace "urn:ietf:params:xml:ns:yang:ietf-radius";
   prefix "sys";
 
   organization
@@ -95,5 +94,4 @@ module ietf-radius {
         }
     }
   }
-
 }
