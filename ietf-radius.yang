@@ -96,12 +96,12 @@ module ietf-radius {
     }
   }
   /* Notifications */
-  notification radius-down {
-      description ".....";
-      leaf state {
-          type uint32;
-          mandatory "true";
-          description "Notify when a Radius is down";
-      }
-}
+    notification radius-down {
+        description ".....";
+        leaf state {
+            type uint32;
+            mandatory "true";
+            description "Notify when a Radius is down";
+        }
+    }
 }
